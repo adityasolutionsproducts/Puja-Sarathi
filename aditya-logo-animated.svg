@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="Aditya Solutions">
+  <defs>
+    <style>
+      .aditya-text { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+  <!-- Icon with orbiting dots -->
+  <g transform="translate(60,60)">
+    <!-- Outer orbit - blue -->
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" opacity="0.95"/>
+    <!-- Inner orbit - orange -->
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" opacity="0.95"/>
+    
+    <!-- Outer dot 1 - purple top -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-48" r="7" fill="#8b5cf6" stroke="white" stroke-width="1.2"/>
+    </g>
+    <!-- Outer dot 2 - pink right -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="90 0 0" to="450 0 0" dur="12s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-48" r="5.5" fill="#ec4899" stroke="white" stroke-width="1"/>
+    </g>
+    <!-- Inner dot 1 - yellow left -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="180 0 0" to="-180 0 0" dur="8s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-26" r="6" fill="#fbbf24" stroke="white" stroke-width="1.2"/>
+    </g>
+    <!-- Inner dot 2 - green bottom -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="270 0 0" to="-90 0 0" dur="8s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-26" r="5.5" fill="#10b981" stroke="white" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <g transform="translate(125, 38)" class="aditya-text">
+    <text x="0" y="0" font-weight="800" font-size="30" fill="#0f172a" letter-spacing="-0.02em">Aditya</text>
+    <text x="0" y="32" font-weight="800" font-size="30" fill="#0f172a" letter-spacing="-0.02em">Solutions</text>
+    <line x1="0" y1="44" x2="220" y2="44" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="0" y="60" font-weight="500" font-size="11.5" fill="#64748b" letter-spacing="0.02em">Orbiting around smart solutions</text>
+  </g>
+</svg>
