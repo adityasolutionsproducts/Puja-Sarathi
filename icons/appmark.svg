@@ -1,0 +1,17 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+  <defs>
+    <linearGradient id="Bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+    <radialGradient id="Glow" cx="50%" cy="52%" r="46%"><stop offset="0" stop-color="#FFF6D8" stop-opacity=".75"/><stop offset="60%" stop-color="#FFE9A8" stop-opacity=".22"/><stop offset="100%" stop-color="#FFE9A8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="Flame" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFDF8F"/></linearGradient>
+    <linearGradient id="FlameIn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFF3CE"/></linearGradient>
+    <linearGradient id="Bowl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#FBE9C8"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#Bg)"/>
+  <circle cx="256" cy="268" r="170" fill="url(#Glow)"/>
+  <g>
+    <path d="M256 96c34 52 66 88 66 128 0 36-27 62-66 62s-66-26-66-62c0-40 32-76 66-128z" fill="url(#Flame)"/>
+    <path d="M256 168c17 26 32 45 32 66 0 19-14 33-32 33s-32-14-32-33c0-21 15-40 32-66z" fill="url(#FlameIn)" opacity=".95"/>
+  </g>
+  <ellipse cx="256" cy="298" rx="139" ry="29" fill="none" stroke="#FFFDF7" stroke-width="17"/>
+  <path d="M117 298c10 79 62 132 139 132s129-53 139-132z" fill="url(#Bowl)"/>
+</svg>
