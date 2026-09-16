@@ -1,5 +1,5 @@
 /* Puja Sarathi PWA Service Worker v1.0 */
-const CACHE_NAME = 'puja-sarathi-v1-2025-09-15';
+const CACHE_NAME = 'puja-sarathi-v2-2025-09-15';
 const CORE_ASSETS = [
   './',
   './index.html',
